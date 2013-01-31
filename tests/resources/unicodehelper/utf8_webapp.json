@@ -1,9 +1,0 @@
-﻿{
-    "name": "MozApps",
-    "description": "MozApps Hello World does absolutly nothing.",
-    "launch_path": "/index.html",
-    "developer": {
-        "name": "Test",
-        "url": "http://mozilla.org/"
-    }
-}

@@ -7,9 +7,10 @@ import simplejson as json
 from nose.tools import eq_
 
 from helper import TestCase
-import appvalidator.constants
 from appvalidator.errorbundle import ErrorBundle
 from appvalidator.specs.webapps import WebappSpec
+from valcom.tests import resource
+import appvalidator.constants
 import appvalidator.webapp
 
 
@@ -128,7 +129,7 @@ class TestWebapps(TestCase):
         """Test that a plain webapp with a BOM won't throw errors."""
         self.setup_err()
         appvalidator.webapp.detect_webapp(
-            self.err, "tests/resources/unicodehelper/utf8_webapp.json")
+            self.err, resource("unicodehelper/utf8_webapp.json"))
         self.assert_silent()
 
     def test_fail_parse(self):

@@ -6,7 +6,7 @@ from StringIO import StringIO
 import simplejson as json
 
 from .outputhandlers.shellcolors import OutputHandler
-from .. import unicodehelper
+from valcom.libs import unicodehelper
 
 
 class BaseErrorBundle(object):

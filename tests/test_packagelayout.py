@@ -4,7 +4,7 @@ from mock import MagicMock
 
 import appvalidator.testcases.packagelayout as packagelayout
 from appvalidator.errorbundle import ErrorBundle
-from helper import _do_test, MockXPI, TestCase
+from helper import _do_test, TestCase
 
 
 def test_blacklisted_files():

@@ -1,4 +1,3 @@
-
 class ManifestMixin(object):
     """This mixin adds the manifest to the final JSON output. The manifest
     should be stored in the resources under the name "manifest" as a dict.

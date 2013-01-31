@@ -3,7 +3,7 @@ from nose.tools import eq_
 
 from helper import MockXPI, TestCase
 
-from appvalidator.zip import ZipPackage
+from valcom.libs.zip import ZipPackage
 import appvalidator.testcases.content as content
 from appvalidator.errorbundle import ErrorBundle
 from appvalidator.constants import *

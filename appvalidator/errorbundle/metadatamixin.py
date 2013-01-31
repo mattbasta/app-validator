@@ -1,4 +1,3 @@
-
 class MetadataMixin(object):
     """
     This mixin adds metadata functionality to the standard error bundle.

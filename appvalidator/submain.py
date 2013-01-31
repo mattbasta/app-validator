@@ -6,7 +6,7 @@ from zlib import error as zlib_error
 
 import testcases
 from .webapp import detect_webapp
-from .zip import ZipPackage
+from valcom.libs.zip import ZipPackage
 
 from constants import *
 

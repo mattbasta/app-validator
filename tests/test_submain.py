@@ -7,7 +7,6 @@ from nose.tools import eq_
 import appvalidator.submain as submain
 from appvalidator.errorbundle import ErrorBundle
 from appvalidator.constants import *
-from helper import MockXPI
 
 
 @patch("appvalidator.submain.test_package",
